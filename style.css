@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    list-style: none;
+    text-decoration: none;
+}
+/*comeca aqui*/
+
+::selection {
+    background: #ea4c89;
+    color: rgba(255,255,255,0.85);
+}
+
+.cabecalho {
+    margin: 1px 1px 0 1px;
+}
+
+.navegacao {
+    margin: auto;
+    width: 100%;
+    max-width: 768px;
+    background-color: mediumvioletred;
+}
+
+.cabecalho-lista {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cabecalho-link {
+    color: hotpink;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.principal-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.principal-h1 {
+    display: block;
+    margin: auto;
+    font-weight: 400;
+    font-family: monospace;
+    text-align: center;
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: mediumvioletred;
+}
+
+.principal-divisao {
+    margin: auto;
+    max-width: 596px;
+}
+
+.principal-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 10px;
+}
+
+.principal-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: mediumvioletred;
+    color: hotpink;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 10px;
+}
